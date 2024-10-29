@@ -1,0 +1,43 @@
+body{ 
+    background-image: url('../assets/img/imagen.jpg');
+    background-size: cover; /* La imagen cubre todo el body */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+} 
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    color: mediumblue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(250, 246, 250);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(231, 226, 235);
+}
+p{
+   color:rgb(10, 10, 10) ;
+    font-size: 20px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+
+img{
+    height: 270px;
+    
+}
+button {
+    background-color: rgba(255, 236, 127, 0.967);
+    color: rgb(18, 18, 20);
+    height: 20px;
+    width: 70px;
+} .imagen{display:flex ; justify-content: space-evenly;
+  height: 400px; ;
+  
+}
