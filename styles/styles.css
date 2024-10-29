@@ -41,3 +41,22 @@ button {
   height: 400px; ;
   
 }
+.social-links {
+    text-align: center; /* Centra los enlaces */
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 18px;
+    color: rgba(18, 18, 20, 0.8); /* Color de texto */
+    margin: 0 10px; /* Espacio entre los enlaces */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 236, 127, 0.967); /* Efecto al pasar el mouse */
+    color: rgb(18, 18, 20);
+}
